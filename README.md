@@ -9,11 +9,17 @@ Deep Learning approaches such as the appliance of ConV Neural Networks offer a p
 
 We divided our project into a couple of  notebooks.
  Based on the old studies , they founf that magnification factors have a crucial role, therofe we devide out notebook into 8 [40X,100X,200X,400X, without data augumentation] 
- and with data augmentation
+ and with data augmentation.
 
 # Team members:
 Salima Hassouni 
+
 zakaria mkassi
+
+majid saad Edine
+
+# The imbalanced class problem
+As we have already seen in one of the statistics shown above, the data set is imbalanced: Class 0 is the majority class containing around 2.5 times more patches than minority class 1. This phenomenon is common in medical data where infected classes typically tend to be smaller than their healthy counterparts. This class imbalance is problematic because during training the healthy class is learned much better than the infected one resulting in a one-way optimization and biased conclusions. For this very reason, we will augment class 1 later on.
 
  
       
