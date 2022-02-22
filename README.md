@@ -12,8 +12,8 @@ We divided our project into a couple of  notebooks.
  and with data augmentation.
 
 # Team members:
-Salima Hassouni 
-zakaria mkassi
+Salima Hassouni ;
+zakaria mkassi ;
 majid saad Edine
 
 # The imbalanced class problem
