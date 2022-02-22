@@ -23,14 +23,29 @@ As we have already seen in one of the statistics shown above, the data set is im
 we are using 2 models :
 1)  vGG16 as Features extractors and xgboost as classifier
 2)  CNN
-3)  
-# Data split for 1 model
+# Data split for 1 model:
+
 1) 80% training 
 2) 20% testin
-3) 
 # data split for the sesond model:
+
 1)60% training 
 2) 40% validation and testing
+# data augmentation technik:
+
+* scaling , rotation , mirror
+# Hyperparameters tunning:
+
+SGD; LR0=0.01; BATCHSIZE0=32
+
+# Evaluation metrics:
+* Confusion matrix
+* Auc, Roc
+* Accuray and loss
+
+
+
+
 
 
 
