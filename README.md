@@ -1,17 +1,20 @@
 # Projekt zur Daten analyse
 
-Notes on the code:
-we are building the model using twi approches :
-      1 -VGG16 as features extractor und xgboost as classifier
-      2 using CNN
- the first remark on the data that we have unbalanced dataset therfore we used data augmentation 
-     * data augmentationt technik that we used is in ppt file
- * Data preprocessing:
-    resize  with 224
-      why we use 224 ?  because vgg16 take inputs size with 224
-  * after extracting the features using vgg16 , we use xgboost for classification
-  * xgboost has a bib nammed Gridsearch , we are using this bib for hyperparameters tunning 
-  
+## Project Breast Histopathology Images
+In this project we present our Convolutional Neural Network for automatic detection and visual analysis of Breast cancer  tissue regions from whole slide images (WSI) of breast cancer. We use a dataset from Breakhis webseite , where the original images, belonging to different patients, have already been preprocessed and divided into small image patches of size 50x50. The patches are classified with either 1 for containing brast or with 0 for not containing breast.
+
+Deep Learning approaches such as the appliance of ConV Neural Networks offer a particularly interesting method for such kinds of problems, especially if a large number of training images is at present.
+
+
+
+We divided our project into a couple of  notebooks.
+ Based on the old studies , they founf that magnification factors have a crucial role, therofe we devide out notebook into 8 [40X,100X,200X,400X, without data augumentation] 
+ and with data augmentation
+
+# Team members:
+Salima Hassouni 
+zakaria mkassi
+
  
       
    
