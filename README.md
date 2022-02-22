@@ -36,7 +36,7 @@ we are using 2 models :
 * scaling , rotation , mirror
 # Hyperparameters tunning:
 
-SGD; LR0=0.01; BATCHSIZE0=32
+SGD; LR=0.01; BATCHSIZE=32
 
 # Evaluation metrics:
 * Confusion matrix
